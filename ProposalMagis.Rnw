@@ -1,0 +1,45 @@
+\documentclass{article}
+
+\begin{document}
+\title {Chemical Imaging and Metabolism of Drug Exposure using Mass Spectrometry}
+\author {Nolan McLaughlin\thanks{Neuroscience Program,Chemistry Department} \\ Dr. Katherine Stumpo \thanks{Chemistry Department}}
+\maketitle
+
+\date{}
+
+\section{Introduction}
+\subsection{Blood Brain Barrier and Metabolism}
+	The blood-brain (BBB) and blood-cerebrospinal fluid barriers are important tools used by the brain to keep neurons in a highly specialized environment. These barriers exclude toxic substances and protect neurons from chemicals. This is primarily done by specialized endothelial and choroid epithelial cell surfaces that are selectively permeable. As a result, chemical substances that try to pass these barriers are often met with resistance. It is only when chemicals meet the selectively permeable membrane conditions that they are allowed transportation into the brain. 
+Crossing the blood-brain barrier introduces the original molecular species into a novel chemical environment where then it can be metabolized resulting in derivatives. Moreover, being able to predict the location of where these chemicals are metabolized and how much is metabolized can be extremely difficult.  Recent literature has shown that the cytochrome enzymes, CYP450 and CYP2E1, play major roles in metabolizing chemicals in the brain\cite{garcia2017role}. Localized concentrations of metabolites can lead to acture toxicity. An example of this toxicity is that of xenobiotics, an exogenous toxic chemical. Chlorpyrifos, a xenobiotic, is a pesticide with significant neurological effects and is readily metabolized by the body. The body and brain using CYPS metabolizes chlorpyrifos into chlorpyrifos-oxon, the neurological agent. However, this chemical is filtered out in the blood and liver and is readily inactivated, but acute toxicity is   still found in the brain. Currently it is proposed that chlorpyrifos must pass through the BBB and then metabolize in the brain, ensuing toxicity\cite{khokhar2012rat}.
+	So there is a problem here. Even though the blood brain barrier provides an effective way to prevent harmful chemicals into the brain, they still may be passed through to the brain in a nonharmful form and then metabolize into a toxic chemical by the use of CYP enzyme. With no effective way of predicting where the chemical has transported in the brain there is limited ways to study the pathways of the chemical. However, with the use of MALDI-TOF we can make a map of the chemical ions based on their molecular weights of both a parent compound and its metabolites. Therefore, lending spatial information of where the chemical is in the brain.
+
+\subsection{Mass Spectrometry}
+Mass spectrometry is an effective analytical technique that can be used to identify and localize chemical compounds. Specifically, matrix-assisted laser desorption ionization time-of-flight (MALDI-TOF) is a type of mass spectrometry that will be used to identify chemicals of interest.  The accuracy and precision of the instrument is heavily dependent on sample preparation and the chemical matrix applied. Matrices primarily serve one job and that is to facilitate desorption and ionization. Ionization entails absorption of  a photon  and the matrix facilitates excited state proton transfer resulting in protonated molecule which then can be passed through the mass spectrometer and be detected. Traditionally, small organic matrices such as Sinapinic Acid,  ??-Cyano-4-hydroxycinnamic acid, 2,3-Dihydroxybenzoic acid, and 3-Hydroxypicolinic acid have been used. However, in this experiment gold nanoparticles (AuNPs) will be utilized instead of the traditional matrices.
+	
+\section{Research Justification}
+\subsection{Gold Nanoparticles AuNps}
+AuNPs are an effective matrix because of their reduction in chemical noise, unique optical and electronic properties and  favorable interactions with amine groups\cite{mclean2005size}. AuNPs can have more intense signals than their counterpart matrices due to the fact that salts interfere with the signal of traditional matrices. High concentrations of salts often lead to the formation of salt adducts. Salt adducts lend themselves to which is observed in spectra as multiple ionization channels and overall signal intensity is lower for all pathways. However, this problem of salt adducts does not affect AuNPs and therefore generate much higher signal intensities\cite{wu2009gold}. Additionally, using AuNPs will provide the benefit of lower chemical noise as they are not present in the mass regions of interest. This is important as many of the chemical compounds of interest are found below 500 DA where many of the traditional matrices would be found. Another problem of traditional matrices is their reproducibility from shot to shot. Traditional matrices preform inconsistently due to variation crystallization of the sample from shot to shot compound. AuNPs lack these issues due to the fact their spotting procedure does not require the crystallization of the compound and ultimately circumvents this issue. 
+Overall, the use of AuNPs will provide cleaner resolution and higher accuracy than traditional compounds for the detection of this compound.
+Zebrafish serve as a suitable model for this experiment. Zebrafish are an animal that is heavily used in pharmacokinetics due to their availability and conserved metabolic pathways that are found in humans. 
+
+\subsection{Zebrafish}	
+Zebrafish serve as a suitable model for this experiment. Zebrafish are an animal that is heavily used in pharmacokinetics due to their availability and conserved metabolic pathways that are found in humans\cite{villacrez2018evaluation}.
+\section{Methodology}
+\subsection{Maldi-TOF}
+The specific brain tissue will be prepared based on the location of the brain. Roughly, 10 ??m slices will be thaw-mounted onto a stainless steel MALDI plate, and then coated with a thin layer of AuNPS which acts as the matrix for desorption/ionization. Mass spectra will be recorded and analyzed for the location of chemicals of interest, specifically, CLO, CNO, and NDMC. Finally, spatial location of molecules of interest will be mapped and plotted graphically against the brain tissue slice. MS imaging methods are well established and documented 1 and standard procedures will be followed vida infra.
+\subsection{Cryostat}
+The cryostat is an instrument capable of slicing tissue into very small portions. The brains of the zebrafish will be placed into the machine and delicately sliced into portions 10um. This will allow for specific location to be separated within the brains. The procedure of the cryostat will be generated using the specifications of the machine and manual.  
+\subsection{Data Analysis}
+The data will be collected as mass spectra from the MALDI-TOF-MS. These mass spectra will be transformed using R-Studio to generate a 3-D imaging of the brain. All RStudio work will be done in a notebook titled Mass spectrometry1. 
+\subsection{Immunohistochemistry/Histology}
+Brains will be sliced in half to perform immunohistochemistry. Specifically, groups of neurons inside the brain will be identified and correlated with data from the MALDI.  Specific stains/antibodies will be used to identify different types of neurotransmitters and proteins associated with a group of neurons at a location found from the MALDI TOF MS experiments.
+\subsection{Techniques}
+Sacrafice and Dissection will be aided by Dr.Son. The dissection process will end with the removal of the brain.
+Zebrafish will be drugged according to standards set in Villacrez et al.
+\subsection{Maintenance}
+Zebrafish will be housed in the Aquatics Suite located in Loyola Science Center. Their maintenance will consist of three feedings at day and concurrent water changes. The zebrafish will be wild type.
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
+

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538502331005.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "245EDC48",
+    "lastKnownWriteTime" : 5002480361505834798,
+    "last_content_update" : 1538502331005,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "a956119e48a945ac8c69f29fa9b7fd37",
+        "name" : "joe3",
+        "title" : "joe3"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

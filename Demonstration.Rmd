@@ -1,0 +1,29 @@
+---
+title: "3D Modeling Data Points"
+output: html_notebook
+---
+
+```{r}
+library(ggplot2)
+library(plot3D)
+library("plot3Drgl")
+```
+```{r}
+x <- sep.l <- iris$Sepal.Length
+y <- pet.l <- iris$Petal.Length
+z <- sep.w <- iris$Sepal.Width
+```
+```{r}
+scatter3D(x, y, z, clab = c("Sepal", "Width (cm)"))
+```
+
+```{r}
+CI <- list(z = matrix(nrow = length(x),
+                    data = rep(0.1, 2*length(x))))
+scatter3D(x, y, z, phi = 0, clab = c("Intensity"), bty = "g", col = ramp.col(c("black", "blue", "red")), 
+          pch = 20, CI = CI,labels = c("CLO", "CNO", "NMDC"))
+
+```
+```{r}
+plotrgl()
+```

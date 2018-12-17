@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538511706782.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3AFADF9",
+    "lastKnownWriteTime" : 3833180308419998817,
+    "last_content_update" : 1538511706782,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "5E6A4F22",
+        "caption" : "MSD",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=MSD&cache_key=5E6A4F22",
+        "displayedObservations" : 171,
+        "environment" : "",
+        "object" : "MSD",
+        "preview" : 0,
+        "totalObservations" : 171,
+        "variables" : 2
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

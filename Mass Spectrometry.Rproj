@@ -1,0 +1,47 @@
+---
+title: "Mass Spec Notebook"
+output: html_notebook
+---
+
+## need to install all these packages
+  Have to change the repositories to find the packages
+  setRepositories(ind = c(1:4))
+  install.packages("msdata")
+  install.packages("mzR")
+  install.packages("MSnBase")
+
+```{r}
+library("msdata")
+library("mzR")
+library("MSnbase")
+```
+
+Example Data
+```{r}
+fls <- proteomics(full.names = TRUE)
+basename(fls)
+fl <- fls [2]
+fl
+```
+
+Real Data with Joe
+I have no idea how to upload data so im going to copy and paste all day long.
+```{r}
+joe2 <- openMSfile("~/Mass Spectrometry/MALDI/ASD.mzData")
+
+```
+
+Make joe2 data specifically on 1 spectra
+
+```{r}
+JD1 <-spectra(joe2,1)
+```
+
+view more information
+```{r}
+JDH <- header(joe2)
+```
+
+```{r}
+
+readMSData()

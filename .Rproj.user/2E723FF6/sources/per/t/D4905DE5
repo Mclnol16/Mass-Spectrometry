@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538502377622.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D4905DE5",
+    "lastKnownWriteTime" : 3419473789575321445,
+    "last_content_update" : 1538502377622,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E5593318",
+        "caption" : "JDS1",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=JDS1&cache_key=E5593318",
+        "displayedObservations" : "16",
+        "environment" : "",
+        "object" : "JDS1",
+        "preview" : "0",
+        "totalObservations" : "16",
+        "variables" : "2"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

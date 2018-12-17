@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538513312168.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6D22F293",
+    "lastKnownWriteTime" : 3907210364791562289,
+    "last_content_update" : 1538513312168,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "ADE89950",
+        "caption" : "MSDN",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=MSDN&cache_key=ADE89950",
+        "displayedObservations" : 171,
+        "environment" : "",
+        "object" : "MSDN",
+        "preview" : 0,
+        "totalObservations" : 171,
+        "variables" : 3
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

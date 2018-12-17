@@ -1,0 +1,8 @@
+\documentclass{article}
+
+\begin{document}
+\title {Chemical Imaging and Metabolism of Drug Exposure using Mass Spectrometry\thanks{}}
+\author {Nolan McLaughlin\\ Mentor: Dr. Katherine A. Stumpo, Ph.D., The University of Scranton
+\maketitle
+
+\date{}

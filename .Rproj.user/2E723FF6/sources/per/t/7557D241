@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538511016858.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7557D241",
+    "lastKnownWriteTime" : 3419473789575321445,
+    "last_content_update" : 1538511016858,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "B4B90547",
+        "caption" : "JDH",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=JDH&cache_key=B4B90547",
+        "displayedObservations" : "1",
+        "environment" : "",
+        "object" : "JDH",
+        "preview" : "0",
+        "totalObservations" : "1",
+        "variables" : "25"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
